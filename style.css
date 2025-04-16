@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FUTMATCH başlığı için özel sınıf */
+.futmatch-title {
+  color: #00ff57 !important;
+}
+
+/* Giriş Yap butonu için özel sınıf */
+.futmatch-button {
+  border-color: #00ff57 !important;
+  color: #00ff57 !important;
+}
