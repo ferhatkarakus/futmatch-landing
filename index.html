@@ -10,38 +10,20 @@
   <style>
     /* Animasyon Keyframes */
     @keyframes slideInRight {
-      0% {
-        transform: translateX(100%);
-        opacity: 0;
-      }
-      100% {
-        transform: translateX(0);
-        opacity: 1;
-      }
+      0% { transform: translateX(100%); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
     }
     @keyframes slideInLeft {
-      0% {
-        transform: translateX(-100%);
-        opacity: 0;
-      }
-      100% {
-        transform: translateX(0);
-        opacity: 1;
-      }
+      0% { transform: translateX(-100%); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
     }
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
     }
-    .slide-in-right {
-      animation: slideInRight 1s ease-out forwards;
-    }
-    .slide-in-left {
-      animation: slideInLeft 1s ease-out forwards;
-    }
-    .fade-in {
-      animation: fadeIn 1s ease-out forwards;
-    }
+    .slide-in-right { animation: slideInRight 1s ease-out forwards; }
+    .slide-in-left  { animation: slideInLeft  1s ease-out forwards; }
+    .fade-in        { animation: fadeIn      1s ease-out forwards; }
   </style>
 </head>
 <body class="bg-black text-white">
@@ -55,14 +37,17 @@
         <p class="text-xl text-white mb-6">Futmatch halısaha tutkunlarını rakip takımlarla eşleştirir.</p>
       </div>
       <div class="fade-in">
-        <a href="https://app.futmatchtr.com" class="futmatch-button border-2 px-6 py-3 rounded-lg text-lg font-bold hover:bg-[#00ff57] hover:text-white transition inline-block">
+        <a href="https://app.futmatchtr.com"
+           class="futmatch-button border-2 px-6 py-3 rounded-lg text-lg font-bold hover:bg-[#00ff57] hover:text-white transition inline-block">
           Giriş Yap
         </a>
       </div>
     </div>
     <!-- Sağ Resim -->
     <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-      <img src="assets/phone-in-hand.png" alt="Futmatch App" class="w-80 md:w-96 slide-in-right"/>
+      <img src="assets/phone-in-hand.png"
+           alt="Futmatch App"
+           class="w-80 md:w-96 slide-in-right"/>
     </div>
   </section>
 
@@ -112,10 +97,10 @@
         <a href="#"><img src="assets/icons/x.svg" alt="X" class="w-6 h-6"/></a>
       </div>
       <div class="text-sm text-gray-400 space-y-1 text-right">
-        <a href="#" class="block hover:underline">Çerez Politikası</a>
-        <a href="#" class="block hover:underline">Gizlilik Politikası</a>
-        <a href="#" class="block hover:underline">Aydınlatma Metni</a>
-        <a href="#" class="block hover:underline">Kullanıcı Sözleşmesi</a>
+        <a href="/documents/cerez.html" class="block hover:underline">Çerez Politikası</a>
+        <a href="documents/gizlilik.html" class="block hover:underline">Gizlilik Politikası</a>
+        <a href="documents/aydinlatma.html" class="block hover:underline">Aydınlatma Metni</a>
+        <a href="documents/kullanicisozlesmesi.html" class="block hover:underline">Kullanıcı Sözleşmesi</a>
       </div>
     </div>
   </footer>
